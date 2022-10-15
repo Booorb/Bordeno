@@ -7,9 +7,13 @@ Bordeno is a community made discord bot with linux focused meme commands and som
 ## Installing
 To run the bot locally run the following commands: 
 1: **git clone https://github.com/Bordeno/Bordeno.git**
+<br>
 2: **cd Bordeno**
+<br>
 3: **rename example-config.json to config.json and enter your bot token and prefix**
+<br>
 4: **npm install**
+<br>
 5: **npm start**
 
 ## Contributing
