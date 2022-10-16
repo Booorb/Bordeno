@@ -30,7 +30,7 @@ bot.guildJoinCommand({
     $createApplicationCommand[global;bot-info;Bot replies with infos about the bot;true]
     $createApplicationCommand[global;server-info;Bot replies with infos about the server;true]
     $createApplicationCommand[global;user-info;Bot replies with infos about the mentioned user;true]
-    $createApplicationCommand[global;help;Bot replies with all bot commands;true]
+    $createApplicationCommand[global;help;Bot replies with all bot commands;true]#
     $log[$userTag[$clientID] finished creating slash commands!]`
 })
 
