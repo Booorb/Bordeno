@@ -8,8 +8,8 @@ $description[1;
 Server Name: **$serverName**
 Member Count: **$membersCount**
 Server Emojis: 
-**$serverEmojis**
+** $serverEmojis **
 Server Features: 
-**$serverFeatures**
+** $serverFeatures **
 `
 })
