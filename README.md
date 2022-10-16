@@ -1,4 +1,4 @@
-https://img.shields.io/github/issues/Bordeno/Bordeno
+[![GitHub issues](https://img.shields.io/github/issues/Bordeno/Bordeno)](https://github.com/Bordeno/Bordeno/issues)
 
 # 🐧Bordeno🐧
 Bordeno is a Linux focused open source Discord Bot coded in Javascript with [aoi.js](https://github.com/AkaruiDevelopment/aoi.js)
