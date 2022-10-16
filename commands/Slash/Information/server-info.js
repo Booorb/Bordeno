@@ -1,8 +1,8 @@
 module.exports = {
-name: "server-info",
-type: "interaction",
-prototype: "slash",
-code: `$interactionReply[;
+    name: "server-info",
+    type: "interaction",
+    prototype: "slash",
+    code: `$interactionReply[;
 {newEmbed:
 {color:RANDOM}
 {title:Server Info:}

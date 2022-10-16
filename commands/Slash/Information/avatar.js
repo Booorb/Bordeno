@@ -1,5 +1,5 @@
 module.exports = {
-    name: "avatar",
+	name: "avatar",
 	type: "interaction",
 	prototype: "slash",
 	code: `$interactionReply[;{newEmbed:

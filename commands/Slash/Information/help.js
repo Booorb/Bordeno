@@ -22,5 +22,4 @@ module.exports = ({
     $addButton[1;Support Server;link;https://discord.gg/hAsfJ4c8Cg;no]
     $addButton[1;Invite Bot;link;https://discord.com/oauth2/authorize?client_id=1028734340642906284&scope=bot&permissions=517745401025;no}
     `
-    })
-    
+})

@@ -3,9 +3,9 @@ const { token } = require("./config.json");
 const { prefix } = require("./config.json");
 
 const bot = new aoijs.AoiClient({
-token: token,
-prefix: prefix,
-intents: ["GUILDS", "GUILD_MESSAGES"]
+    token: token,
+    prefix: prefix,
+    intents: ["GUILDS", "GUILD_MESSAGES"]
 })
 
 //Events
@@ -19,5 +19,8 @@ bot.readyCommand({
     $createApplicationCommand[global;server-info;Bot replies with infos about the server;true]
     $createApplicationCommand[global;user-info;Bot replies with infos about the mentioned user;true]
     $createApplicationCommand[global;help;Bot replies with all bot commands;true]
+    $createApplicationCommand[global;gnuslashlinux;Bot replies with gnu/linux copy pasta;true]
+    $createApplicationCommand[global;gnuslashlinux-uwu;Bot replies with gnu/linux uwu copy pasta;true]
+    $createApplicationCommand[global;linux-meme;Bot replies with linux meme;true]
     $log[$userTag[$clientID] finished creating slash commands!]`
 })

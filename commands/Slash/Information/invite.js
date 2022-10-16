@@ -1,8 +1,8 @@
 module.exports = {
-name: "invite",
-type: "interaction",
-prototype: "slash",
-code: `$interactionReply[;
+    name: "invite",
+    type: "interaction",
+    prototype: "slash",
+    code: `$interactionReply[;
 {newEmbed:
 {color:RANDOM}
 {title:Click the link below to invite the bot!}
