@@ -1,4 +1,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/Bordeno/Bordeno)](https://github.com/Bordeno/Bordeno/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Bordeno/Bordeno)](https://github.com/Bordeno/Bordeno/network)
+[![GitHub stars](https://img.shields.io/github/stars/Bordeno/Bordeno)](https://github.com/Bordeno/Bordeno/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Bordeno/Bordeno)](https://github.com/Bordeno/Bordeno/blob/main/LICENSE)
 
 # 🐧Bordeno🐧
 Bordeno is a Linux focused open source Discord Bot coded in Javascript with [aoi.js](https://github.com/AkaruiDevelopment/aoi.js)
