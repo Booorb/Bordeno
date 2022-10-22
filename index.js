@@ -24,16 +24,19 @@ bot.onInteractionCreate()
 bot.guildJoinCommand({
   channel: "$randomChannelID",
   code: `
-    $createApplicationCommand[global;avatar;Shows your avatar;true]
-    $createApplicationCommand[global;ping;Bot replies with pong and current ms;true]
-    $createApplicationCommand[global;invite;Bot replies with a invite link for the bot;true]
-    $createApplicationCommand[global;bot-info;Bot replies with infos about the bot;true]
-    $createApplicationCommand[global;server-info;Bot replies with infos about the server;true]
-    $createApplicationCommand[global;user-info;Bot replies with infos about the mentioned user;true]
-    $createApplicationCommand[global;help;Bot replies with all bot commands;true]
-    $createApplicationCommand[global;gnuslashlinux;Bot replies with gnu/linux copy pasta;true]
-    $createApplicationCommand[global;gnuslashlinux-uwu;Bot replies with gnu/linux uwu copy pasta;true]
-    $createApplicationCommand[global;linux-meme;Bot replies with linux meme;true]
+    $createApplicationCommand[$guildID;avatar;Shows your avatar;true]
+    $createApplicationCommand[$guildID;ping;Bot replies with pong and current ms;true]
+    $createApplicationCommand[$guildID;invite;Bot replies with a invite link for the bot;true]
+    $createApplicationCommand[$guildID;bot-info;Bot replies with infos about the bot;true]
+    $createApplicationCommand[$guildID;server-info;Bot replies with infos about the server;true]
+    $createApplicationCommand[$guildID;user-info;Bot replies with infos about the mentioned user;true]
+    $createApplicationCommand[$guildID;help;Bot replies with all bot commands;true]
+    $createApplicationCommand[$guildID;gnuslashlinux;Bot replies with gnu/linux copy pasta;true]
+    $createApplicationCommand[$guildID;gnuslashlinux-uwu;Bot replies with gnu/linux uwu copy pasta;true]
+    $createApplicationCommand[$guildID;linux-meme;Bot replies with random linux meme from r/linuxmemes;true]
+    $createApplicationCommand[$guildID;meme;Bot replies with random meme from r/dankmemes;true]
+    $createApplicationCommand[$guildID;programming-meme;Bot replies with random programming meme form r/programmingmemes;true]
+    $createApplicationCommand[$guildID;wallpaper;Bot replies with random wallpaper form r/wallpapers;true]
     $log[$userTag[$clientID] finished creating slash commands!]`
 })
 

@@ -22,5 +22,8 @@ bot.readyCommand({
     $createApplicationCommand[global;gnuslashlinux;Bot replies with gnu/linux copy pasta;true]
     $createApplicationCommand[global;gnuslashlinux-uwu;Bot replies with gnu/linux uwu copy pasta;true]
     $createApplicationCommand[global;linux-meme;Bot replies with linux meme;true]
+    $createApplicationCommand[global;meme;Bot replies with random meme from r/dankmemes;true]
+    $createApplicationCommand[global;programming-meme;Bot replies with random programming meme form r/programmingmemes;true]
+    $createApplicationCommand[global;wallpaper;Bot replies with random wallpaper form r/wallpapers;true]
     $log[$userTag[$clientID] finished creating slash commands!]`
 })
