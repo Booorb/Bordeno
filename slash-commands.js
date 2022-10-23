@@ -25,5 +25,6 @@ bot.readyCommand({
     $createApplicationCommand[global;meme;Bot replies with random meme from r/dankmemes;true]
     $createApplicationCommand[global;programming-meme;Bot replies with random programming meme form r/programmingmemes;true]
     $createApplicationCommand[global;wallpaper;Bot replies with random wallpaper form r/wallpapers;true]
+    $createApplicationCommand[global;distro-chooser;The bot decides which distribution you should switch to next;true]
     $log[$userTag[$clientID] finished creating slash commands!]`
 })

@@ -1,4 +1,4 @@
-# fly.toml file generated for bordeno on 2022-10-16T16:18:33+02:00
+# fly.toml file generated for bordeno on 2022-10-23T10:31:19+02:00
 
 app = "bordeno"
 kill_signal = "SIGINT"

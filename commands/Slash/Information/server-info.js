@@ -10,6 +10,7 @@ module.exports = {
 {description:
 Server Name: **$serverName**
 Member Count: **$membersCount**
+Channel Count: **$channelCount**
 Server Emojis: 
 ** $serverEmojis **
 Server Features: 

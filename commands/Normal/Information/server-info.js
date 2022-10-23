@@ -7,6 +7,7 @@ $thumbnail[$serverIcon]
 $description[1;
 Server Name: **$serverName**
 Member Count: **$membersCount**
+Channel Count: **$channelCount**
 Server Emojis: 
 ** $serverEmojis **
 Server Features: 
